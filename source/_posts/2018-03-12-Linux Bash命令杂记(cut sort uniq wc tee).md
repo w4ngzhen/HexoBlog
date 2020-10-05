@@ -1,12 +1,14 @@
 ---
+
 layout: post
 title: Linux Bash命令杂记(cut sort uniq wc tee)
 date: 2018-03-12
-tags: [Linux,bash]
-status: publish
-type: post
-published: true
+tags: 
+- Linux
+- Bash
+
 ---
+
 **数据流重定向**
 ```
 标准输入（stdin）：代码为0，使用<或<<；

@@ -1,12 +1,14 @@
 ---
+
 layout: post
 title: Java String的探讨
 date: 2017-04-18
-tags: [Java, String]
-status: publish
-type: post
-published: true
+tags: 
+- Java
+- String
+
 ---
+
 关于String相关内容的学习，历来都是Java学习必不可少的一个经历。
 
 以前一直想要好好总结一下String的相关的知识点，苦于没有时间，终于在今天有一个闲暇的时间来好好总结一下，也希望这文章能够加深我对于String相关内容的理解~（ps:在我看来，学习某些知识点的时候把学到的想到的都记录下一方面能够加深自己学习印象，二者能够锻炼锻炼我的文笔~）

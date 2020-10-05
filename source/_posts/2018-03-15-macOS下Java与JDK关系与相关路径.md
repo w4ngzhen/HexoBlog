@@ -1,12 +1,14 @@
 ---
+
 layout: post
 title: macOS下Java与JDK关系与相关路径
 date: 2018-03-15
-tags: [macOS,JAVAHOME]
-status: publish
-type: post
-published: true
+tags: 
+- macOS
+- Java
+
 ---
+
 macOS下的Java与JDK的路径曾经困扰过我一段时间，今天稍有些忘记，故记下笔记，整理一下。Java与JDK的关系不在本文笔记之内，Javaer常识。
 
 **偏好设置中的Java**

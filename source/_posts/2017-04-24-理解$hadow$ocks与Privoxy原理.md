@@ -1,11 +1,12 @@
 ---
+
 layout: post
 title: 理解$hadow$ocks与Privoxy原理
 date: 2017-04-24
-tags: [shadowsocks,privoxy]
-status: publish
-type: post
-published: true
+tags: 
+- shadowsocks
+- privoxy
+
 ---
 
 **以下所有提到\$hadow\$ocks的均以ss指代**

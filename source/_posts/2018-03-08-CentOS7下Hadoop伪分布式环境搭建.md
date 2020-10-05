@@ -1,11 +1,12 @@
 ---
+
 layout: post
 title: CentOS7下Hadoop伪分布式环境搭建
 date: 2018-03-08
-tags: [Linux, Hadoop]
-status: publish
-type: post
-published: true
+tags: 
+- Linux
+- Hadoop
+
 ---
 前期准备
 

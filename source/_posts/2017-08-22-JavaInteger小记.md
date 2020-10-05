@@ -1,11 +1,12 @@
 ---
+
 layout: post
 title: Java中的Integer
 date: 2017-08-22
-tags: [Java, Integer]
-status: publish
-type: post
-published: true
+tags: 
+- Java
+- Integer
+
 ---
 
 众所周知，在Java中，存在着值比较与应用比较两种情况。例如，如下的比较，可以根据值比较与引用比较来跟容易的判断出结果来：

@@ -1,11 +1,12 @@
 ---
+
 layout: post
 title: Scala trait特质 深入理解
 date: 2018-04-24
-tags: [Scala,trait]
-status: publish
-type: post
-published: true
+tags: 
+- Scala
+- trait
+
 ---
 
 ### 初探Scala 特质trait

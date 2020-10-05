@@ -1,12 +1,14 @@
 ---
+
 layout: post
 title: Linux Bash命令杂记(tr col join paste expand)
 date: 2018-03-13
-tags: [Linux,bash]
-status: publish
-type: post
-published: true
+tags: 
+- Linux
+- Bash
+
 ---
+
 **tr命令**
 
 tr命令可以将输入的数据中的某些字符做替换或者是作删除
