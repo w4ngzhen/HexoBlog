@@ -105,4 +105,4 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/w4ngzhen/w4ngzhen.github.io
-  branch: master
+  branch: main
