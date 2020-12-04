@@ -299,7 +299,7 @@ function install(gyp, argv, callback) {
 
 `host`变量取决于从环境变量中检查名称为`'npm_config_' + opts.module_name + '_binary_host_mirror'`的环境变量。如果不存在，则使用`package_json.binary.host`。正常使用的时候，我们并不会设定环境变量，所以这里就进入`package_json.binary`进行获取。这个`package_json`是`evaluate`函数被调用时候传入的，在`node-pre-gyp/install.js`中能够看到：
 
-![image-20201204101751333](C:\Users\w4ngzhen\AppData\Roaming\Typora\typora-user-images\image-20201204101751333.png)
+![](https://cdn.jsdelivr.net/gh/w4ngzhen/CDN/images/post/2020-11-27-node-native-install/import-gyp.png)
 
 一开始分析的时候，看到这里，本人以为`package_json`就是`node-pre-gyp/package.json`，于是本人去检查该`json`发现很奇怪，并没有binary属性，更别提host了。一番思考才明白，`node-pre-gyp install`的运行时调用者是谁呀？不是应该是`sqlite3`吗？所以这个地方的`require('./package.json')`实际上是指代的是`sqlite3/package.json`。查看`sqlite3/package.json`，果然发现了对应的元素：
 
@@ -345,7 +345,7 @@ function do_build(gyp,argv,callback) {
 
 那么我们又将回到调用install的地方。实际上，gyp就是node-pre-gyp.js导出的模块：
 
-![image-20201204124050917](C:\Users\w4ngzhen\AppData\Roaming\Typora\typora-user-images\image-20201204124050917.png)
+![](https://cdn.jsdelivr.net/gh/w4ngzhen/CDN/images/post/2020-11-27-node-native-install/node-pre-gyp-export.png)
 
 也就是说在`do_build`中进行操作就是，放置了一个`build`任务在队列中。所以我们按照先前的分析，直接去看`build.js`
 
