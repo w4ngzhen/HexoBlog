@@ -1,11 +1,11 @@
 ---
 
 layout: post
-title: 理解$hadow$ocks与Privoxy原理
+title: 理解$hadow$ocks与Proxy原理
 date: 2017-04-24
 tags: 
 - shadowsocks
-- privoxy
+- proxy
 
 ---
 
