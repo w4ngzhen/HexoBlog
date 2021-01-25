@@ -11,6 +11,8 @@ tags:
 
 欲研究C#端如何进行图像的基本OCR识别，找到一款开源的OCR识别组件。该组件当前已经已经升级到了4.0版本。和传统的版本（3.x）比，4.0时代最突出的变化就是基于LSTM神经网络。Tesseract本身是由C++进行编写，但为了同时适配不同的语言进行调用，开放调用API并产生了诸如Java、C#、Python等主流语言在内的封装版本。本次主要研究C#封装版。
 
+<!-- more -->
+
 ## 项目结构
 
 Tesseract本身由C++编写并开源在[Github](https://github.com/tesseract-ocr/tesseract)，在3.X版本中，Tesseract的识别模式为字符识别，该种识别方式识别能力较低，所以在后来的4.X版本中，引入了LSTM（Long short-term memory，长短期记忆神经网络），极大的提升了识别率。为了让不同的语言均能够使用Tesseract进行OCR识别，Tesseract也是开放了API并产生了诸如Java、C#、Python等主流语言在内的封装版本。而本次C#端的封装版也开源在了[Github](https://github.com/charlesw/tesseract)，目前已知的C#封装版已发布在nuget上，封装了对应Tesseract的版本为3.05.02。所以目前的项目结构如下：

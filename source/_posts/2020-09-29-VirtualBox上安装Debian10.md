@@ -5,9 +5,9 @@ date: 2020-09-29
 tags:
 - Linux
 - Debian
-
 ---
-
+本文将介绍如何使用VBox进行Debian10的安装
+<!-- more -->
 # 准备
 
 ## VirtualBox

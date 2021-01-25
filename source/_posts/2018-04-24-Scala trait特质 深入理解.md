@@ -11,6 +11,9 @@ tags:
 
 ### 初探Scala 特质trait
 在Scala中，trait（特质）关键字有着举足轻重的作用。就像在Java中一样，我们只能在Scala中通过extends进行单一继承，但trait可以让我们从语义上实现了多重继承。通过对继承的类混入（mixin）多个特质，来达到多重继承的目的。乍一看，trait和Java中的interface接口很像，但是，细节上它们又有着大不同。
+
+<!-- more -->
+
 ```scala
 // 定义超类
 class Super

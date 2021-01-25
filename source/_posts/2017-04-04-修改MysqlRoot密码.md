@@ -9,6 +9,8 @@ tags:
 ---
 曾几何时，我也是记得MySQL root密码的人，想要修改root密码还不是轻而易举的事？下面前三种修改改方式都是在记得密码的情况下进行修改，如果你忘记了原本的root，请直接跳至 **终极**
 
+<!-- more -->
+
 **第一种：**
 在MySQL中修改：mysql> set password for root@localhost = password(‘新密码’);
 当然，你也可以在root账户下去修改其他账户的密码，只需要将root换为其他账户即可

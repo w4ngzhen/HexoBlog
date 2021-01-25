@@ -5,6 +5,10 @@ date: 2020-08-08
 
 ---
 
+本文将从零开始，进行Electron+Vue+ElementUI的开发环境搭建
+
+<!-- more -->
+
 ## Node环境搭建
 
 本文假定你完成了nodejs的环境基础搭建：

@@ -9,7 +9,10 @@ tags:
 
 ---
 
+<!-- more -->
+
 众所周知，在Java中，存在着值比较与应用比较两种情况。例如，如下的比较，可以根据值比较与引用比较来跟容易的判断出结果来：
+
 ```java
 int a = 123;
 int b = 123;
@@ -25,7 +28,7 @@ System.out.println(s1 == s2); //false
 Integer a = 666;
 Integer b = 666;
 System.out.println(a == b);
- ```
+```
 
 结果是false，您可能会说，这有什么好问的，Integer对象的比较，引用的比较，而这两个只是值相同，而对象不同的Integer对象罢了，所以当然为false。好，那么我再问你，下面的结果是什么？
 ```java

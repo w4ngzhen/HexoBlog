@@ -8,6 +8,8 @@ tags:
 - Hadoop
 
 ---
+<!-- more -->
+
 前期准备
 
 **1.配置hostname(可选，了解)**

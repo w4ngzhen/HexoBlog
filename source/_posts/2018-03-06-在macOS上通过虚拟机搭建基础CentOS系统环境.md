@@ -9,6 +9,8 @@ tags:
 ---
 尽管从Mac的Terminal可以看出，macOS与UNIX、Linux或多或少都有血缘关系（shell、bash等），但是在mac进行Linux开发，或者把macOS直接当作Linux来使用依然是说不过去的，这其中包括一些命令行的使用，一些基本的文件夹体系等（如，在Linux上的/home目录与在macOS下的/Users）不一致。如果想要在macOS上进行Linux的学习，或者进行Linux开发，最完美的方案自然是安装虚拟机。
 
+<!-- more -->
+
 ### 虚拟机的选择
 
 mac平台上的主流虚拟机有VMWare Fusion、Parallels Desktop、VrtualBox。前两者均是付费产品，价格虽不是很贵（参考JetBrains、Adobe系列），但是对于只是在Linux上进行学习或者是进行一些简单的开发颇有些大材小用了。所以，本次教程选择免费的VirtualBox进行搭建。
