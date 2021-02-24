@@ -8,6 +8,10 @@ tags:
 ---
 # Linux下Electron loadURL报错 ERR_FAILED(-2) Not allowed to load local resource
 
+Linux Electron打包后页面无法加载，报错：Not allowed to load local resource
+
+<!-- more -->
+
 ## 背景
 
 使用electron-vue的时候，窗体创建后加载页面使用的是`loadURL`函数，并且传入的参数形如：
